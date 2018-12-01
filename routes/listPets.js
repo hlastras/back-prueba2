@@ -9,6 +9,7 @@ router.get('/', function (req, res) {
     let skip;
     let limit;
     let order;
+perro=1
     let db = req.params.db;
     if (req.query.skip) skip = parseInt(req.query.skip, 10)
     if (req.query.limit) limit = parseInt(req.query.limit)
