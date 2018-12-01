@@ -23,7 +23,7 @@ router.post('/save_pet/', function (req, res) {
         contact = req.body.contact;
         contact._id = req.body.contact._id || "invalid_contact_id";
     }
-
+    variableNoUSada= 0
     const newRegistry = {
         _id: _id,
         date: req.body.date,
