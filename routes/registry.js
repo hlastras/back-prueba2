@@ -19,7 +19,7 @@ router.post('/save_pet/', function (req, res) {
     } else {
         animal = { _id: "test" };
     }
-    variableZ=42;
+    let variableZ=42;
     if (req.body.contact) {
         contact = req.body.contact;
         contact._id = req.body.contact._id || "invalid_contact_id";
