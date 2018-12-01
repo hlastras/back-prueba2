@@ -8,3 +8,10 @@ node_js:
   - 6
 install:
   - npm install
+  
+addons:
+  sonarcloud:
+    organization: "hlastras-github" # the key of the org you chose at step #3
+script:
+  # other script steps might be done before running the actual analysis
+  - sonar-scanner
