@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "test": "mocha --exit",
-    "install": "mv otroMalEjemplo.html ./node_modules/"
+    "test": "mocha --exit"
   },
   "dependencies": {
     "bluebird": "^3.5.2",
