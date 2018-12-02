@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node app.js",
     "test": "mocha --exit"
+    "install": "echo Hector"
   },
   "dependencies": {
     "bluebird": "^3.5.2",
