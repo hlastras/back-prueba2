@@ -5,3 +5,8 @@ node_js:
 addons:
   sonarcloud:
     organization: "hlastras-github"
+    
+script:
+  - npm test
+  - sonar-scanner
+
