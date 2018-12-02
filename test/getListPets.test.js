@@ -25,7 +25,7 @@ describe('App', function () {
             chai.request(app)
                 .get('/api/list?status=found&limit=10&skip=2&order=-1')
                 .end(function (err, res) {
-                    expect(res).to.have.status(200);
+                    expect(res).to.have.status(203);
                     done();
                 });
         });
