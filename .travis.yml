@@ -2,9 +2,4 @@ language: node_js
 node_js:
   - "stable"
   
-addons:
-  sonarcloud:
-    organization: "hlastras-github"
-script:
-  # other script steps might be done before running the actual analysis
-  - sonar-scanner
+
