@@ -13,6 +13,7 @@ router.post('/save_pet/', function (req, res) {
     let _id = req.body._id || "invalid_id";
     let animal;
     let contact;
+    myVariable = 0
     if (req.body.animal) {
         animal = req.body.animal;
         animal._id = req.body.animal._id || "invalid_animal_id";
